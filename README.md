@@ -43,8 +43,9 @@ link : [facebook](https://www.facebook.com/profile.php?id=61575312276649)
 
 ## CREDITS
 
-original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```  
-modified : [JOY-BOT](https://replit.com/@joyahmed404) by ```Sumon AHMED```  
+original file : [SUMON_BOT]
+modified : [SUMON_BOT]
+```Sumon AHMED```  
 
 ---
 
