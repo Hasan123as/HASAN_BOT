@@ -15,7 +15,7 @@ module.exports.run = async function ({ api, event }) {
   const senderID = event.senderID;
 
   // Optional confirmation message
-  api.sendMessage("👋 Bidding farewell... Joy Bot is leaving this group!", threadID, () => {
+  api.sendMessage("👋 বস আমার খুব থাকার ইচ্ছা ছিল🥹.. প্লিজ আবার এড দিয় বস😅🙏", threadID, () => {
     api.removeUserFromGroup(api.getCurrentUserID(), threadID); // Remove bot
   });
 };
