@@ -26,9 +26,9 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
     const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (config.PREFIX == null) {
-        return api.shareContact(`╭╼|━━━━━━━━━━━━━━|╾╮\n𝐏𝐫𝐞𝐟𝐢𝐱: ${global.config.PREFIX}\n╰╼|━━━━━━━━━━━━━━|╾╯\n\n╭╼|━━━━━━━━━━━━━━|╾╮\n𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫: 𝐉𝐨𝐲 𝐀𝐡𝐦𝐞𝐝\n 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/profile.php?id=100001435123762\n ╰╼|━━━━━━━━━━━━━━|╾╯`, api.getCurrentUserID(), event.threadID);
+        return api.shareContact(`╭╼|━━━━━━━━━━━━━━|╾╮\n𝐏𝐫𝐞𝐟𝐢𝐱: ${global.config.PREFIX}\n╰╼|━━━━━━━━━━━━━━|╾╯\n\n╭╼|━━━━━━━━━━━━━━|╾╮\n𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫: 𝐒𝐮𝐦𝐨𝐧 𝐢𝐬𝐥𝐚𝐦\n 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/profile.php?id=61575312276649\n ╰╼|━━━━━━━━━━━━━━|╾╯`, api.getCurrentUserID(), event.threadID);
       }
-      else return api.shareContact(`╭╼|━━━━━━━━━━━━━━|╾╮\n𝐏𝐫𝐞𝐟𝐢𝐱: ${global.config.PREFIX}\n╰╼|━━━━━━━━━━━━━━|╾╯\n\n╭╼|━━━━━━━━━━━━━━|╾╮\n𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫: 𝐉𝐨𝐲 𝐀𝐡𝐦𝐞𝐝\n 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/profile.php?id=100001435123762\n ╰╼|━━━━━━━━━━━━━━|╾╯`, api.getCurrentUserID(), event.threadID);
+      else return api.shareContact(`╭╼|━━━━━━━━━━━━━━|╾╮\n𝐏𝐫𝐞𝐟𝐢𝐱: ${global.config.PREFIX}\n╰╼|━━━━━━━━━━━━━━|╾╯\n\n╭╼|━━━━━━━━━━━━━━|╾╮\n𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫: 𝐒𝐮𝐦𝐨𝐧 𝐢𝐬𝐥𝐚𝐦\n 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/profile.php?id=61575312276649\n ╰╼|━━━━━━━━━━━━━━|╾╯`, api.getCurrentUserID(), event.threadID);
     }
 
   });
